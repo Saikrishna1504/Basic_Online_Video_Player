@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="snowflake-container">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+    </div>
+    
+    <div class="container">
+        <h1>Online Video Player Using YouTube API</h1>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for a video...">
+            <button onclick="searchYouTube()">Search</button>
+            <button id="voiceSearchButton">🎤</button>
+        </div>
+        <div id="results"></div>
+        <div id="player">
+            <button onclick="goBack()">Back to Search</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
